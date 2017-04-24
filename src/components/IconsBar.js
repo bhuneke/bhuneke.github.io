@@ -18,10 +18,9 @@ function handleClick(url) {
 export default function IconsBar(props)  {
   return (
     <div>
-      <img src={email} className='icon' alt='email' onClick={(e) => {
-        e.preventDefault();
-        handleClick('email');
-      }}/>
+      <a href='mailto:brigittehuneke@gmail.com'>
+        <img src={email} className='icon' alt='email' />
+      </a>
       <img src={github} className='icon' alt='github' onClick={(e) => {
         e.preventDefault();
         handleClick(GITHUB);
