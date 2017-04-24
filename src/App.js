@@ -5,6 +5,7 @@ import IconsBar from './components/IconsBar';
 import Description from './components/Description';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">

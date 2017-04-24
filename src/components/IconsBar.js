@@ -5,13 +5,30 @@ import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 import '../App.css';
 
+
+function handleClick(url) {
+  window.open(`${url}`);
+}
+
 export default function IconsBar(props)  {
   return (
     <div>
-      <img src={email} className='icon' alt='email'/>
-      <img src={github} className='icon' alt='github'/>
-      <img src={instagram} className='icon' alt='instagram'/>
-      <img src={linkedin} className='icon' alt='linkedin'/>
+      <img src={email} className='icon' alt='email' onClick={(e) => {
+        e.preventDefault();
+        handleClick('email');
+      }}/>
+      <img src={github} className='icon' alt='github' onClick={(e) => {
+        e.preventDefault();
+        handleClick('https://github.com/bhuneke');
+      }}/>
+      <img src={instagram} className='icon' alt='instagram' onClick={(e) => {
+        e.preventDefault();
+        handleClick('https://www.instagram.com/brighun/');
+      }}/>
+      <img src={linkedin} className='icon' alt='linkedin' onClick={(e) => {
+        e.preventDefault();
+        handleClick('https://www.linkedin.com/in/brigitte-huneke');
+      }}/>
     </div>
   );
 }
