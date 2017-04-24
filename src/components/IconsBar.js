@@ -5,6 +5,11 @@ import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 import '../App.css';
 
+const EMAIL = '';
+const GITHUB = 'https://github.com/bhuneke';
+const LINKEDIN = 'https://www.linkedin.com/in/brigitte-huneke';
+const INSTAGRAM = 'https://www.instagram.com/brighun/';
+
 
 function handleClick(url) {
   window.open(`${url}`);
@@ -19,15 +24,15 @@ export default function IconsBar(props)  {
       }}/>
       <img src={github} className='icon' alt='github' onClick={(e) => {
         e.preventDefault();
-        handleClick('https://github.com/bhuneke');
+        handleClick(GITHUB);
       }}/>
       <img src={instagram} className='icon' alt='instagram' onClick={(e) => {
         e.preventDefault();
-        handleClick('https://www.instagram.com/brighun/');
+        handleClick(INSTAGRAM);
       }}/>
       <img src={linkedin} className='icon' alt='linkedin' onClick={(e) => {
         e.preventDefault();
-        handleClick('https://www.linkedin.com/in/brigitte-huneke');
+        handleClick(LINKEDIN);
       }}/>
     </div>
   );
