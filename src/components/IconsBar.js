@@ -5,7 +5,6 @@ import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 import '../App.css';
 
-const EMAIL = '';
 const GITHUB = 'https://github.com/bhuneke';
 const LINKEDIN = 'https://www.linkedin.com/in/brigitte-huneke';
 const INSTAGRAM = 'https://www.instagram.com/brighun/';

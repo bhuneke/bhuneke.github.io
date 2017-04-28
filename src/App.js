@@ -13,7 +13,7 @@ class App extends Component {
           <div >
             <img src={logo} className="App-logo" alt="logo" />
           </div>
-          <h4>FULL-STACK DEVELOPER / DESIGNER</h4>
+          <h4>DEVELOPER / DESIGNER</h4>
           <Description />
           <IconsBar />
         </div>
