@@ -19,6 +19,40 @@ body {
   margin: 7px;
 }
 
+.icon:hover, .color-diary:hover {
+  cursor: pointer;
+}
+
+.color-diary {
+  width: 170px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px lightgrey solid;
+}
+
+.color-box {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: 10px 0 0 10px; 
+}
+
+.blue {
+  background-color: #8181FC;
+}
+
+.green {
+  background-color: #6CB1BC;
+}
+
+.yellow {
+  background-color: #F2B451;
+}
+
+.red {
+  background-color: #E55C5C;
+}
+
 .main-content {
   position: absolute;
   top: 220px;

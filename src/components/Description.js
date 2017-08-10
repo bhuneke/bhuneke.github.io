@@ -4,19 +4,28 @@ export default function Description() {
   return (
     <div>
       <p>
-        I’m Brigitte - a landscape designer turned software developer. 
+        Hi there. I’m Brigitte. 
       </p>
       <br/>
-      <p>
-        Things I care about:
-        <br/>
-        People. Community. Sustainability. Design. Accessibility. Travel. Learning. 
-      </p>
+      <p>I am a front-end JavaScript developer with full-stack skills and design experience.
+        I recently moved back to Austin from Portland. I cannot tell you how excited I am about sunshine and tacos.</p>
       <br/>
-      <p>
-        Say hi!
-      </p>
+      <div className='project'>
+        <h4>FEATURED PROJECT:</h4>
+        <a href='https://colordiary.herokuapp.com/'>
+          <div className='color-diary'>
+            <div className='color-box blue'></div>
+            <div className='color-box green'></div>
+            <div className='color-box yellow'></div>
+            <div className='color-box red'></div>
+          </div>
+        </a>
+      </div>
       <br/>
+      <p>More to come, but in the meantime -</p>
+      <h3>
+        SAY HI!
+      </h3>
     </div>
   );
 }
