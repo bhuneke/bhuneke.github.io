@@ -13,7 +13,7 @@
 	.st7{clip-path:url(#SVGID_6_);fill:none;stroke:#231F20;stroke-width:1.294;}
 	.st8{stroke:#000000;}
 </style>
-<g id="circles">
+<g id="circles" class="icon-circle">
 	<circle cx="25" cy="25" r="25"/>
 </g>
 <g id="Layer_1" class="st0">
