@@ -12,6 +12,7 @@ export default function Description() {
       <br/>
       <div className='project'>
         <h4>FEATURED PROJECT:</h4>
+        <p>your mood, hued</p>
         <a href='https://colordiary.herokuapp.com/'>
           <div className='color-diary'>
             <div className='color-box blue'></div>

@@ -27,7 +27,6 @@ body {
   width: 170px;
   height: 50px;
   margin: 0 auto;
-  border: 1px lightgrey solid;
 }
 
 .color-box {
@@ -35,21 +34,22 @@ body {
   height: 30px;
   float: left;
   margin: 10px 0 0 10px; 
+  background-color: lightgrey;
 }
 
-.blue {
+.color-diary:hover .blue {
   background-color: #8181FC;
 }
 
-.green {
+.color-diary:hover .green {
   background-color: #6CB1BC;
 }
 
-.yellow {
+.color-diary:hover .yellow {
   background-color: #F2B451;
 }
 
-.red {
+.color-diary:hover .red {
   background-color: #E55C5C;
 }
 
